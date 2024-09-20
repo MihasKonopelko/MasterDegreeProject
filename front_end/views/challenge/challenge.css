@@ -1,0 +1,123 @@
+
+
+#create-challenge-sidenav-issue
+{
+    border-color: #ffffff;
+    border-style: dashed;
+	border-width: 2px;
+    font-weight: bold;
+	color: rgb(255, 255, 255);
+    font-size: calc(16px + 0.5vw);
+    text-align: center;
+
+    width:40%;
+    margin:2.5% 2%;
+    padding: 4px 4px;
+    left:3%;
+    float:left;
+}
+
+#create-challenge-sidenav-issue:hover
+{
+	color: rgb(11, 147, 255);
+    border-color: rgb(11, 147, 255);
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+
+#create-challenge-sidenav-comment
+{
+    display: none;
+}
+
+#create-challenge-sidenav-issue-category
+{
+    display: none;
+}
+
+#create-challenge-sidenav-issue-subcategory
+{
+    display: none;
+}
+
+
+
+#create-challenge-code-sidenav-comment-textbox
+{
+    border-color: #ffffff;
+    border-style: solid;
+	border-width: 2px;
+    font-weight: bold;
+    font-size: calc(13px + 0.5vw);
+    text-align: left;
+
+    width:90%;
+    margin:1.5% 2%;
+    padding: 2px 10px;
+
+    float:left;
+}
+
+#code-view-instructions
+{
+    padding: 1px 10px;
+    font-weight: bold;
+    font-size: calc(8px + 0.5vw);
+    text-align: left;
+}
+
+.code-view-tips
+{
+    position:relative;
+    bottom:0%;
+
+    padding: 1px 10px;
+    font-weight: bold;
+    font-size: calc(8px + 0.5vw);
+    text-align: left;
+}
+
+#challenge-tutorial-button
+{
+    position:absolute;
+    top: 7%;
+    right: 85%;
+    width: 12%;
+    height: 6%;
+    padding: 0% 0%;
+}
+
+#challenge-report-error
+{
+    position:absolute;
+    background-color: red;
+    font-weight: bold;
+    top: 7%;
+    left: 85%;
+    width: 12%;
+    height: 6%;
+    padding: 0% 0%;
+
+}
+
+#challenge-report-error:hover
+{
+    background-color: orange;
+    color: white;
+}
+
+
+
+#total-issues
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#total-issues-label
+{
+    font-size: larger;
+    font-weight: bold;
+}

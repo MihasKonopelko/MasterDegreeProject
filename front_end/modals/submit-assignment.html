@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<div>
+
+  <fieldset>
+       <legend>Description</legend>
+   <p id="assignment-description"></p>
+  </fieldset>
+
+  <fieldset>
+       <legend>Deadline</legend>
+    <label id="assignment-deadline"></label>
+  </fieldset>
+
+  <fieldset>
+       <legend>Upload File</legend><!--FILE UPLOAD BOX-->
+    <form id="upload" action="submit-assignment.html" method="POST" enctype="multipart/form-data">
+      <fieldset>
+        <legend class="fileset-legend">File Upload</legend>
+
+        <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+        <div>
+          <input type="file" id="file-select" name="fileselect[]" multiple="multiple" style="display: none;" />
+          <div id="file-drag"><br><br><br><br>drop JS files here<br><br><br><br></div>
+        </div>
+
+
+        <div id="submit-button">
+	      <button type="submit">Upload Files</button>
+        </div>
+
+        <div id="messages"> </div>
+     </fieldset>
+    </form>
+    <fieldset>
+        <legend class="fileset-legend">Files Uploaded</legend>
+        <div id="files-loaded">
+
+        </div>
+
+    </fieldset>
+
+
+  </fieldset>
+</div>

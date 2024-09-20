@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="create-challenge.css">
+</head>
+
+<body>
+
+<div class="box-left codebox-style" id="create-challenge-code-box">
+<div id="create-challenge-file-select" class="file-select">
+
+</div>
+<pre id="create-challenge-precode-area" class="line-numbers">
+<code id="create-challenge-code-review" class="language-cpp"></code>
+</pre>
+</div>
+
+<div class="box-right" id="create-challenge-comment-box">
+
+<fieldset>
+    <legend>Issues</legend>
+<table id="create-challenge-data-table">
+<tr>
+<th></th>
+<th>Line</th>
+<th style= "width: 70%;">Issue</th>
+</tr>
+</table>
+      <br>
+ </fieldset>
+    <fieldset>
+        <legend>Average Completion Time</legend>
+        <div id="create-challenge-time">
+            Minutes: <input type="number" id="create-challenge-time-minutes" min="0" max="59" value="0">
+            Seconds: <input type="number" id="create-challenge-time-seconds" min="1" max="59" value="30">
+         </div>
+     </fieldset>
+
+     <fieldset>
+     <legend>Select difficulty level</legend>
+        <select id="create-challenge-difficulty">
+              <option disabled selected value> -- select an option -- </option>
+            <option value="easy">Easy</option>
+            <option value="hard">Hard</option>
+        </select>
+     </fieldset>
+
+
+    <fieldset>
+        <legend>Submit</legend>
+        <div id="create-challenge-submit-div">
+             <button id="create-challenge-submit">YES</button>
+        </div>
+     </fieldset>
+
+
+
+    <fieldset class="code-view-tips">
+        <legend>Tips on system use</legend>
+
+        <ul>
+            <li>To select a line of code with an issue - click a line number on the codeview.</li>
+            <li>To cancel issue creation - press [x] on a popping side modal.</li>
+        </ul>
+    </fieldset>
+
+
+</div>
+
+
+
+
+<!-- Side Modal with work to review -->
+<div id="create-challenge-code-side-modal" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id="create-challenge-code-side-modal-close">&times;</a>
+    <fieldset class="code-review-sidenav-fieldset" id="create-challenge-code-sidenav-issue-category">
+        <legend class="code-review-sidenav-legend">Select the category of the issue</legend>
+        <div id="create-challenge-code-category-select-div">
+        </div>
+     </fieldset>
+</div>
+</body>
+</html>

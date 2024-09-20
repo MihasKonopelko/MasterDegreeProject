@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="code-view.css">
+</head>
+
+<body>
+
+<div class="box-left codebox-style" id="code-box">
+<div id="file-select" class="file-select">
+</div>
+<pre id="precode-area" class="line-numbers">
+<code id="code-review" class="language-cpp"></code>
+</pre>
+</div>
+
+<div class="box-right" id="comment-box">
+
+<table id="review-data-table">
+<tr>
+<th></th>
+<th>Line</th>
+<th>Type</th>
+<th>Content</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<div id="submit-review-div">
+     <button id="submit-review" style="left: 37%; position: relative;">Submit</button>
+</div>
+
+
+</div>
+
+
+
+
+<!-- Side Modal with work to review -->
+<div id="code-review-side-modal" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id="code-review-side-modal-close">&times;</a>
+
+    <fieldset class="code-review-sidenav-fieldset" id="code-review-sidenav-issue-category">
+        <legend class="code-review-sidenav-legend">Select the category of the issue</legend>
+        <div id="code-review-category-select-div">
+
+        </div>
+
+     </fieldset>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

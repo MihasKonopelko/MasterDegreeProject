@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="signin.css">
+  </head>
+
+  <body>
+  <div class="signin-box" style="display: none">
+  <fieldset>
+    <legend>IT Carlow Email</legend>
+
+        <input type="textbox" id="signin-email" placeholder="@itcarlow.ie">
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Password</legend>
+    <input type="password" id="signin-password" placeholder="Password">
+  </fieldset>
+
+      <br>
+
+      <div> <!--LINK TO SIGN UP-->
+        <label>No account?</label>
+        <a id="signup-link" href="javascript:void(0);">Signup</a>
+      </div>
+      <div> <!--LINK TO SIGN UP-->
+        <label>Cannot sign in?</label>
+        <a id="signin-trouble-link" href="javascript:void(0);">Press Here</a>
+      </div>
+
+
+
+
+      <div> <!--ERROR MESSAGE-->
+        <label id="signin-error" class="error-text"></label>
+      </div>
+        <br>
+
+         <!--SIGN IN BUTTON-->
+      <button id="signin-button" class="signin-button">Sign in</button>
+    </div>
+  </body>
+</html>

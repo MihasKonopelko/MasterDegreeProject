@@ -1,0 +1,565 @@
+/******************************************************/
+/****************Essential Styles**********************/
+/******************************************************/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body
+{
+    background-color: #5e636b;
+}
+
+body, div, button, hr, input, fieldset, legend, li, table, th, td, tr, a, p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: #ffffff;
+    border-color:  #9e9e9e;
+    word-break: keep-all;
+}
+
+div button {
+     background-color: #05386b;
+}
+
+
+.error-text{
+    color: red;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #c7cfb9;
+    background-image: linear-gradient(to left, #ccc, #c7cfb9, #ccc);
+
+
+
+
+
+
+
+
+
+
+}
+
+input
+{
+	border-width: 2px;
+    background-color: #e0e0e0;
+    color: #05386b ;
+}
+
+fieldset {
+    border-width: 2px;
+}
+
+legend
+{
+    font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #afa6a4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #706766;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5a5251;
+}
+
+.codebox-style
+{
+    background-color: #2d2d2d;
+    #font-family: monospace;
+    #color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************************/
+/****************MENU TAB PANEL************************/
+/******************************************************/
+.menu-panel
+{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a8c9a;
+
+	#border: 1px solid;
+    #font-size: 0;
+    #margin: 0 auto;
+	#position: sticky;
+	#text-align: center;
+    #width: 80%;
+}
+
+li
+{
+    float: left;
+}
+
+.menu-button
+{
+    display: block;
+    color: #f7ffe9;
+    font-weight: bolder;
+        font-size: 110%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #405458;
+}
+
+
+
+/******************************************************/
+/****************TOOLTIP STYLE*************************/
+/******************************************************/
+
+.tooltip {
+    all: initial;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px  black;
+
+}
+
+.tooltip .tooltiptext {
+    top: 125%;
+    left: -33%;
+    visibility: hidden;
+    width: 130%;
+
+    background-color: #d7d7d7;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+
+    margin-left: 0px;
+    opacity: 0;
+    transition: opacity .3s;
+    font-size: calc(8px + 0.5vw);
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  	transition-delay: .2s;
+    visibility: visible;
+    opacity: 1;
+}
+
+/******************************************************/
+/**************ASSIGNMENT TABLE************************/
+/******************************************************/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+
+}
+
+table tr:hover {
+    background-color:#935437;
+}
+
+
+.view-name-box
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 2%;
+	padding: 1%;
+
+    font-size: calc(14px + 0.5vw);
+    text-align: center;
+
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 5%;
+
+    overflow:auto;
+}
+
+.box
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 2%;
+	padding: 1%;
+
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 13%;
+    bottom: 4%;
+    overflow:scroll;
+}
+
+
+.box-left
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 2%;
+	padding: 1%;
+
+	width: 55%;
+    position: absolute;
+    top: 13%;
+    bottom: 4%;
+    overflow:scroll;
+}
+
+.code-block-centralised
+{
+    width: 80%;
+    left: 8%;
+}
+
+.box-right
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 2%;
+	padding: 0;
+	width: 35%;
+    position: absolute;
+    right: 0;
+    top: 13%;
+    bottom: 4%;
+    overflow:scroll;
+}
+
+
+.add-assignment-button
+{
+    position:relative;
+    display: block;
+    float: left;
+}
+
+/******************************************************/
+/**************PICTURE BUTTONS*************************/
+/******************************************************/
+.picture-button
+{
+    width:50px;
+    height:50px;
+}
+
+button
+{
+	background-color: #c7cfb9;
+	border: 1px solid;
+	box-shadow: 1px 1px black;
+	cursor: pointer;
+    display: inline-block;
+	font-size: calc(9px + 0.5vw);
+    margin: 0.4% 0.1%;
+    padding: .2% 4%;
+}
+button:hover
+{
+	background-color: gray;
+    color: #e99449;
+    font-weight: bold;
+}
+
+
+/******************************************************/
+/***********CODE VIEWS COMMON ELEMENT CLASSES**********/
+/******************************************************/
+.selected
+{
+    outline:3px solid #b3c7ff;
+}
+
+.reviewed
+{
+    outline:4px dashed #4a8c9a;
+}
+
+.correct
+{
+    outline:5px solid green;
+}
+
+.missed
+{
+    outline:5px solid #fffb3a;
+}
+
+.mistake
+{
+    outline:5px solid #ff0510;
+}
+
+
+
+.comments-table {
+
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.comments-table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c7cfb9;
+    vertical-align:top;
+
+}
+
+.comments-table tr:hover {background-color:#c7cfb9;}
+
+.submit-review
+{
+    position:absolute;
+    bottom: 0;
+    left:40%;
+}
+
+/* The side navigation menu */
+.sidenav {
+    top: 16%;
+    height: 57%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    background-color: #2d2d2d;
+    overflow-x: hidden;
+    padding-top: 70px;
+    transition: 0.3s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 14px 8px 8px 90px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c7cfb9;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #c7cfb9;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -65px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.code-review-sidenav-legend
+{
+    font-weight: bold;
+	color: #c7cfb9;
+    font-size: calc(16px + 0.5vw);
+    text-align: left;
+    border-color: #c7cfb9;
+    border-style: solid;
+	border-width: 2px;
+    padding: 4px 4px;
+}
+
+.code-review-sidenav-fieldset
+{
+    border-color:#c7cfb9;
+	border-width: 2px;
+}
+
+.code-review-select-category-span
+{
+    border-color: #c7cfb9;
+    border-style: solid;
+	border-width: 2px;
+    font-weight: bold;
+	color: #c7cfb9;
+
+    font-size: calc(13px + 0.5vw);
+    text-align: left;
+
+    width:90%;
+    margin:1.5% 2%;
+    padding: 2px 10px;
+
+    float:left;
+}
+
+.code-review-select-category-span:hover
+{
+	color: rgb(255, 151, 54);
+    border-color: rgb(255, 151, 54);
+    border-width: 3px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.code-review-subcategory-info-span
+{
+    border-color:#c7cfb9;
+    border-style: solid;
+	border-width: 2px;
+    font-weight: bold;
+	color: #c7cfb9;
+    font-size: calc(13px + 0.5vw);
+    text-align: left;
+    width: 70%;
+    margin:1.5% 2%;
+    padding: 2px 10px;
+    float:right;
+}
+
+
+
+
+
+.code-review-select-subcategory-span
+{
+    border-color:#c7cfb9;
+    border-style: solid;
+	border-width: 2px;
+    font-weight: bold;
+	color: #c7cfb9;
+    font-size: calc(13px + 0.5vw);
+    text-align: left;
+    width:70%;
+    margin:1.5% 2%;
+    padding: 2px 10px;
+    float:right;
+}
+
+.code-review-select-subcategory-span:hover
+{
+	color: rgb(255, 32, 59);
+    border-color:  rgb(255, 32, 59);
+    border-width: 3px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.standard-bit-selected
+{
+    border-style: solid;
+    border-width: 3px;
+}
+
+.file-selected{
+    background-color: #9ac7d5;
+    color: #c7cfb9;
+}
+
+.challenge-timer{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+/******************************************************/
+/***************D3 OBJECTS RELATED CLASSES*************/
+/******************************************************/
+.chart rect:first-of-type {
+    float: right;
+  color: #fff;
+  stroke: #4a8c9a;
+  fill: #5e636b;
+}
+
+text:first-of-type {
+  fill: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.chart rect:nth-of-type(2) {
+  color: #fff;
+  stroke: transparent;
+  fill: #4a8c9a;
+}
+
+text:nth-of-type(2) {
+  fill: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

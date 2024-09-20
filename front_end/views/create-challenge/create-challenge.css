@@ -1,0 +1,65 @@
+#create-challenge-sidenav-issue
+{
+    border-color: #ffffff;
+    border-style: dashed;
+	border-width: 2px;
+    font-weight: bold;
+	color: rgb(255, 255, 255);
+    font-size: calc(16px + 0.5vw);
+    text-align: center;
+
+    width:40%;
+    margin:2.5% 2%;
+    padding: 4px 4px;
+    left:3%;
+    float:left;
+}
+
+#create-challenge-sidenav-issue:hover
+{
+	color: rgb(11, 147, 255);
+    border-color: rgb(11, 147, 255);
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+
+#create-challenge-sidenav-comment
+{
+    display: none;
+}
+
+#create-challenge-sidenav-issue-category
+{
+    display: none;
+}
+
+#create-challenge-sidenav-issue-subcategory
+{
+    display: none;
+}
+
+#create-challenge-code-sidenav-comment-textbox
+{
+    border-color: #ffffff;
+    border-style: solid;
+	border-width: 2px;
+    font-weight: bold;
+    font-size: calc(13px + 0.5vw);
+    text-align: left;
+
+    width:90%;
+    margin:1.5% 2%;
+    padding: 2px 10px;
+
+    float:left;
+}
+
+#code-view-instructions
+{
+    padding: 1px 10px;
+    font-weight: bold;
+    font-size: calc(8px + 0.5vw);
+    text-align: left;
+}
